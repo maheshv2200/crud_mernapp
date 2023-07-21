@@ -23,7 +23,7 @@ app.use('/', Routes);
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
-const PORT = '8080';
+const PORT = '8080'||process.env.PORT;
 
 Connection(USERNAME, PASSWORD);
  

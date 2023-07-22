@@ -4,4 +4,4 @@ services:
   - name: crud-service
     type: web
     buildCommand: cd crud-service && npm install
-    startCommand: npm start
+    startCommand:  cd crud-service && npm start
